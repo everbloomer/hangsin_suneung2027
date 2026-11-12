@@ -1,4 +1,4 @@
-/* 확장 템플릿: 일산동고 최진영 · AI 제작 보조 */
+/* 행신고 3학년부 · AI 제작 보조 */
 (() => {
   'use strict';
   const c=window.SCHOOL||{};

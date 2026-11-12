@@ -6,7 +6,7 @@ window.SCHOOL = {
   "shortName": "행신고",
   "englishName": "HAENGSIN HIGH SCHOOL",
   "motto": "성실(誠實)하고 창조(創造)하는 자주인(自主人) 육성",
-  "credit": "행신고 3학년부장 정진",
+  "credit": "행신고 3학년부",
   "message": "여기까지 온 너의 모든 날을, 끝까지 응원해.",
   "sign": "행신고 3학년부",
   "sheet": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRRQrtqp_9QEyCnRtoML7znoWabSvKHlkBt23mSrWZFtYTMJYAc8GHW1UNFL779Z2IalRoiCeyj_tTD/pub?gid=728103148&single=true&output=csv",
@@ -19,8 +19,8 @@ window.SCHOOL = {
   "guideEdition": 2027,
   "guideEnabled": true,
   "colors": {
-    "blue": "#002f82",
-    "green": "#004c20",
+    "blue": "#2f4a70",
+    "green": "#3d6b50",
     "red": "#a50404"
   },
   "resources": []
