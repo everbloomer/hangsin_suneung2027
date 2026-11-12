@@ -1646,7 +1646,7 @@ noscript p {
           .toLocaleLowerCase()
           .includes(state.query)
       )
-    );
+    ).reverse();
   }
 
   function empty(icon, title, message) {
@@ -1673,7 +1673,7 @@ noscript p {
       el(
         'span',
         'number',
-        'LETTER ' + String(index + 1).padStart(2, '0')
+        'LETTER ' + String(row.no || index + 1).padStart(2, '0')
       )
     );
 
@@ -1857,7 +1857,8 @@ noscript p {
 
       const data = decode(await response.text());
 
-      state.rows = data.rows;
+      // 행신고: 제출 순서 번호를 붙여 최신 편지가 위로 오게 정렬
+      state.rows = data.rows.map((row, i) => Object.assign({}, row, { no: i + 1 }));
       state.loaded = true;
       state.error = '';
 
